@@ -33,6 +33,7 @@ typedef struct s_parsing_helper
     int we_found;
     int c_found;
     int f_found;
+    int player_found;
 }t_parsing_helper;
 
 #include <stdio.h>
@@ -62,5 +63,10 @@ int ft_verify_data(char **file, t_parsing *data);
 int ft_verify_textures(char **buffer, t_parsing *data, t_parsing_helper *helper);
 int buffer_counting(char **string);
 int ft_verify_floor_ceil(char **buffer, t_parsing *data, t_parsing_helper *helper);
-
+int is_wall(char c);
+int is_space(char c);
+int is_empty_space(char c);
+int is_orientation(char c);
+int ft_check_entity(char c);
+int ft_verify_map(t_parsing *data);
 #endif

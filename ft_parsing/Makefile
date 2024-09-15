@@ -12,7 +12,9 @@ SRC = main.c \
 		ft_verify_content.c \
 		ft_verify_data.c \
 		ft_verify_textures.c \
-		ft_verify_floor_ceil.c
+		ft_verify_floor_ceil.c \
+		ft_utils.c \
+		ft_verify_map.c
 
 LIB = parsing.h
 
