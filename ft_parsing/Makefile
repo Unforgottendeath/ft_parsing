@@ -14,7 +14,8 @@ SRC = main.c \
 		ft_verify_textures.c \
 		ft_verify_floor_ceil.c \
 		ft_utils.c \
-		ft_verify_map.c
+		ft_verify_map.c \
+		ft_normalize_map.c
 
 LIB = parsing.h
 

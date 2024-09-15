@@ -20,12 +20,7 @@ void ft_get_map (char **file, int index, t_parsing *data)
 
     i = 0;
     while (file[index])
-    {
-        if (file[index][0])
             data->map[i++] = ft_strdup(file[index++]);
-        else
-            index++;
-    }
     data->map[i] = 0;
 }
 

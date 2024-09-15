@@ -59,6 +59,8 @@ int ft_verify_map(t_parsing *data)
     t_parsing_helper helper;
 
     helper.player_found = 0;
+    if (!ft_normalize_map(data))
+        return (0);
     i = 0;
     while (data->map[i])
     {

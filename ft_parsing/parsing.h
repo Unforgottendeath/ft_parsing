@@ -69,4 +69,5 @@ int is_empty_space(char c);
 int is_orientation(char c);
 int ft_check_entity(char c);
 int ft_verify_map(t_parsing *data);
+int ft_normalize_map(t_parsing *data);
 #endif
